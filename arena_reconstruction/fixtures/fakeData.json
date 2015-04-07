@@ -1,0 +1,78 @@
+[
+  {
+    "model": "arena_reconstruction.Teacher",
+    "pk": 1,
+    "fields": {
+      "name": "one"
+    }
+  },
+
+  {
+    "model": "arena_reconstruction.Teacher",
+    "pk": 2,
+    "fields": {
+      "name": "two"
+    }
+  },
+ 
+  {
+    "model": "arena_reconstruction.Course",
+    "pk": 1,
+    "fields": {
+      "name": "two",
+      "code": "twopointfive"
+    }
+  },
+   {
+    "model": "arena_reconstruction.Course",
+    "pk": 2,
+    "fields": {
+      "name": "two",
+      "code": "twopointfive"
+    }
+  },
+
+  {
+    "model": "arena_reconstruction.Class",
+    "pk": 1,
+    "fields": {
+      "block": "a",
+      "room": "b",
+      "teacher": 1,
+      "course": 1
+    }
+  },
+  {
+    "model": "arena_reconstruction.Class",
+    "pk": 2,
+    "fields": {
+      "block": "a",
+      "room": "b",
+      "teacher": 1,
+      "course": 1
+    }
+  },
+   {
+    "model": "arena_reconstruction.Class",
+    "pk": 3,
+    "fields": {
+      "block": "a",
+      "room": "b",
+      "teacher": 2,
+      "course": 1
+    }
+  },
+   {
+    "model": "arena_reconstruction.Class",
+    "pk": 4,
+    "fields": {
+      "block": "a",
+      "room": "b",
+      "teacher": 2,
+      "course": 2
+    }
+  }
+
+
+
+]
