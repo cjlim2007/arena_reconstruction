@@ -71,7 +71,9 @@ USE_L10N = True
 
 USE_TZ = True
 
-
+TEMPLATE_DIRS = (
+    os.path.join(BASE_DIR, "arena_reconstruction/templates"),
+)
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.7/howto/static-files/
 STATIC_ROOT = 'staticfiles'
@@ -79,4 +81,4 @@ STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'static'),
 )
 ALLOWED_HOSTS = ['*']
-STATIC_URL = '/static/'
+STATIC_URL = '/arena_reconstruction/static/'

@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>{% block title %} base {% endblock %}</title>
+    </head>
+    <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="/static/style.css">
+
+    {% block pills %}
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <ul class="nav nav-tabs">
+  <li role="presentation" {% block info %}class="active"{% endblock %}><a href="/home/">Home</a></li>
+  <li role="presentation" {% block profile %}class="active"{% endblock %}><a href="/course1/">Course 1</a></li>
+  <li role="presentation" {% block profile %}class="active"{% endblock %}><a href="/course2/">Course 2</a></li>
+  <li role="presentation" {% block profile %}class="active"{% endblock %}><a href="/course3/">Course 3</a></li>
+  <li role="presentation" {% block profile %}class="active"{% endblock %}><a href="/course4/">Course 4</a></li>
+  <li role="presentation" {% block profile %}class="active"{% endblock %}><a href="/course5/">Course 5</a></li>
+  <li role="presentation" {% block profile %}class="active"{% endblock %}><a href="/course6/">Course 6</a></li>
+  <li role="presentation" {% block profile %}class="active"{% endblock %}><a href="/course7/">Course 7</a></li>
+  <li role="presentation" {% block profile %}class="active"{% endblock %}><a href="/final/">Final</a></li>
+
+</ul>
+  </div>
+</nav>
+
+</body>
+    {% endblock %}
+    {% block content %}{% endblock %}
+</html>
