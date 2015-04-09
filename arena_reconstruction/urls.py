@@ -6,5 +6,5 @@ urlpatterns = patterns('',
     # url(r'^$', 'arena_reconstruction.views.home', name='home'),
     # url(r'^blog/', include('blog.urls')),
 
-    url(r'^admin/', include(admin.site.urls)),
+    url(r'^temp/$', 'arena_reconstruction.views.showClass', name='temp')
 )
