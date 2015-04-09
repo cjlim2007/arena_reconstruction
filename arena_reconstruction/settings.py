@@ -81,4 +81,4 @@ STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'static'),
 )
 ALLOWED_HOSTS = ['*']
-STATIC_URL = '/arena_reconstruction/static/'
+STATIC_URL = '/static/'
