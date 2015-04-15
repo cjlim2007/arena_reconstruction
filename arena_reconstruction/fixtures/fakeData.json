@@ -3,7 +3,7 @@
     "model": "arena_reconstruction.Teacher",
     "pk": 1,
     "fields": {
-      "name": "one"
+      "name": "Mr.Axt"
     }
   },
 
@@ -11,7 +11,7 @@
     "model": "arena_reconstruction.Teacher",
     "pk": 2,
     "fields": {
-      "name": "two"
+      "name": "Dragon"
     }
   },
  
