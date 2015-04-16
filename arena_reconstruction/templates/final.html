@@ -6,7 +6,7 @@
     </head>
     <body>
     {% block content%}Click to confirm your classes. <div class="btn-group" role="group" aria-label="...">
-      <button type="button" class="btn btn-default">confirm</button>
+      <button type="button" class="btn btn-default"><a href="{% url 'logout' %}">confirm</a></button>
     </div>{% endblock %}
     </body>
 
