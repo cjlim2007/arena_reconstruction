@@ -13,18 +13,19 @@ from pprint import pprint
 # 		for i in data:
 # 			printIt=Course.o
 # courseId=1
-def showClass(request):
-
-	# showSelectedCourse=Class.objects.all().filter(course=courseId)
+def showClass(courseId):
+	showSelectedCourse=Class.objects.all().filter(course=courseId)
 		# showclasses="hi"
-	return render (request,"temp.html",{"classes":Class.objects.all()})
+	# return render (request,"temp.html",{"classes":Class.objects.all()})
 
 
 def home(request):
-    return render(request, "home.html", {"activeTab":"home"})
+	return render(request, "home.html", {"activeTab":"home"})
 
 def course1(request):
-	return render(request, "course1.html", {"activeTab":"course1"})
+	courseId=1
+	showClass(courseId)
+	return render(request, "course1.html", {"activeTab":"course1", "classes":Class.objects.all()})
 	
 
 def course2(request):

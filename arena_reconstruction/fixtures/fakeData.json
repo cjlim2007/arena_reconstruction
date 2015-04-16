@@ -36,7 +36,7 @@
     "model": "arena_reconstruction.Class",
     "pk": 1,
     "fields": {
-      "block": "a",
+      "block": "1",
       "room": "b",
       "teacher": 1,
       "course": 1
@@ -46,7 +46,7 @@
     "model": "arena_reconstruction.Class",
     "pk": 2,
     "fields": {
-      "block": "a",
+      "block": "1",
       "room": "b",
       "teacher": 1,
       "course": 1
@@ -56,7 +56,7 @@
     "model": "arena_reconstruction.Class",
     "pk": 3,
     "fields": {
-      "block": "a",
+      "block": "1",
       "room": "b",
       "teacher": 2,
       "course": 1
@@ -64,9 +64,9 @@
   },
    {
     "model": "arena_reconstruction.Class",
-    "pk": 4,
+    "pk": 2,
     "fields": {
-      "block": "a",
+      "block": "2",
       "room": "b",
       "teacher": 2,
       "course": 2

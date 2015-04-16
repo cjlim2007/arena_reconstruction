@@ -37,10 +37,15 @@
 {% block content %}
 
 <table class="selection">
-  <th>{class}</th>
-  <tr>
-    <td>{period}</td>
-    <td>{teacher}</td>
+    <ul>
+    {% for class in classes %}
+     <th>{{class.course.name}}</th>
+     <tr>
+      <td>{{class.block}}</td>
+      <td>{{class.teacher.name}}</td>
+      <td>{{class.room}}</td>
+    {%endfor%}
+    </ul>
     <td><div class="btn-group" role="group" aria-label="...">
       <button type="button" class="btn btn-default">lock</button>
     </div></td>
