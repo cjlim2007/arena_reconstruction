@@ -1,0 +1,11 @@
+<html>
+	<body id="body">
+		<!-- {{ classes }} -->
+		<ul>
+		{% for class in classes %}
+			<li>{{class.room}}
+				{{class.teacher.name}} </li>
+		{%endfor%}
+		</ul>
+	</body>
+</html>

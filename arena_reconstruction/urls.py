@@ -13,10 +13,10 @@ url(r'^course4/$', 'arena_reconstruction.views.course4', name ='course4'),
 url(r'^course5/$', 'arena_reconstruction.views.course5', name ='course5'),
 url(r'^course6/$', 'arena_reconstruction.views.course6', name ='course6'),
 url(r'^course7/$', 'arena_reconstruction.views.course7', name ='course7'),
+url(r'^temp/$', 'arena_reconstruction.views.showClass', name='temp'),
 url(r'^final/$', 'arena_reconstruction.views.final', name ='final'),
 url(r'^login/$', 'django.contrib.auth.views.login', name='login'),
 url(r'^logout/$', 'django.contrib.auth.views.logout', 
                           {'next_page': '/successfully_logged_out/'}, name='logout'),
 url(r'^successfully_logged_out/$', 'arena_reconstruction.views.successfully_logged_out', name='successfully_logged_out'),
 ) + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
-

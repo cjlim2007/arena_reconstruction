@@ -24,6 +24,11 @@ DEBUG = "DEBUG" in os.environ
 
 TEMPLATE_DEBUG = True
 
+BASE_DIR = os.path.dirname(os.path.dirname(__file__))
+TEMPLATE_DIRS = (
+    os.path.join(BASE_DIR, "templates"),
+)
+
 ALLOWED_HOSTS = []
 
 
@@ -36,6 +41,7 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'arena_reconstruction'
 )
 
 MIDDLEWARE_CLASSES = (
