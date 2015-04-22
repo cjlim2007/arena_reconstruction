@@ -1,4 +1,4 @@
-from arena_reconstruction.models import Course, Class, Teacher
+from arena_reconstruction.models import Course, Class, Teacher, Studentcourse
 from django.shortcuts import render
 import logging
 import json
@@ -20,37 +20,66 @@ def showClass(courseId):
 
 
 def home(request):
-	return render(request, "home.html", {"activeTab":"home"})
+	return render(request, "home.html", {"activeTab":"home", "studentCourses":Studentcourse.objects.all()})
 
 def course1(request):
 	courseId=1
 	showClass(courseId)
-	return render(request, "course1.html", {"activeTab":"course1", "classes":Class.objects.all()})
+
+	return render(request, "course1.html", {"activeTab":"course1", "classes":Class.objects.all().filter(course=courseId), "studentCourses":Studentcourse.objects.all()})
 	
 
 def course2(request):
-	return render(request, "course2.html", {"activeTab":"course2"})
+	courseId=2
+	return render(request, "course2.html", {"activeTab":"course2", "classes":Class.objects.all().filter(course=courseId), "studentCourses":Studentcourse.objects.all()})
 	
 
 def course3(request):
-	return render(request, "course3.html", {"activeTab":"course3"})
+	courseId=3
+	return render(request, "course3.html", {"activeTab":"course3", "classes":Class.objects.all().filter(course=courseId), "studentCourses":Studentcourse.objects.all()})
 	
 
 def course4(request):
-	return render(request, "course4.html", {"activeTab":"course4"})
+	courseId=4
+	return render(request, "course4.html", {"activeTab":"course4", "classes":Class.objects.all().filter(course=courseId), "studentCourses":Studentcourse.objects.all()})
 	
 
 def course5(request):
-	return render(request, "course5.html", {"activeTab":"course5"})
+	courseId=5
+	return render(request, "course5.html", {"activeTab":"course5", "classes":Class.objects.all().filter(course=courseId), "studentCourses":Studentcourse.objects.all()})
 	
 
 def course6(request):
-	return render(request, "course6.html", {"activeTab":"course6"})
+	courseId=6
+	return render(request, "course6.html", {"activeTab":"course6", "classes":Class.objects.all().filter(course=courseId), "studentCourses":Studentcourse.objects.all()})
 	
 
 def course7(request):
-	return render(request, "course7.html", {"activeTab":"course7"})
+	courseId=7
+	return render(request, "course7.html", {"activeTab":"course7", "classes":Class.objects.all().filter(course=courseId), "studentCourses":Studentcourse.objects.all()})
 
 def final(request):
-	return render(request, "final.html", {"activeTab":"final"})
+	return render(request, "final.html", {"activeTab":"final", "studentCourses":Studentcourse.objects.all()})
+
+# def showTab1(request):
+# 	return render(request, "base.html", {})
+
+# def showTab2(request):
+# 	return render(request, "base.html", {"Studentcourse": Studentcourse.objects.second()})
+
+# def showTab3(request):
+# 	return render(request, "base.html", {"Studentcourse": Studentcourse.objects.third()})
+
+# def showTab4(request):
+# 	return render(request, "base.html", {"Studentcourse": Studentcourse.objects.fourth()})
+
+# def showTab5(request):
+# 	return render(request, "base.html", {"Studentcourse": Studentcourse.objects.fifth()})
+
+# def showTab6(request):
+# 	return render(request, "base.html", {"Studentcourse": Studentcourse.objects.sixth()})
+
+# def showTab7(request):
+# 	return render(request, "base.html", {"Studentcourse": Studentcourse.objects.seventh()})
+
 

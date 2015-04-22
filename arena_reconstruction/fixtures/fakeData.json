@@ -19,7 +19,7 @@
     "model": "arena_reconstruction.Course",
     "pk": 1,
     "fields": {
-      "name": "two",
+      "name": "WitchCraft",
       "code": "twopointfive"
     }
   },
@@ -27,7 +27,7 @@
     "model": "arena_reconstruction.Course",
     "pk": 2,
     "fields": {
-      "name": "two",
+      "name": "Coding 101",
       "code": "twopointfive"
     }
   },
@@ -37,7 +37,7 @@
     "pk": 1,
     "fields": {
       "block": "1",
-      "room": "b",
+      "room": "242",
       "teacher": 1,
       "course": 1
     }
@@ -47,9 +47,9 @@
     "pk": 2,
     "fields": {
       "block": "1",
-      "room": "b",
+      "room": "S101",
       "teacher": 1,
-      "course": 1
+      "course": 2
     }
   },
    {
@@ -57,17 +57,17 @@
     "pk": 3,
     "fields": {
       "block": "1",
-      "room": "b",
+      "room": "S102",
       "teacher": 2,
       "course": 1
     }
   },
    {
     "model": "arena_reconstruction.Class",
-    "pk": 2,
+    "pk": 4,
     "fields": {
       "block": "2",
-      "room": "b",
+      "room": "S101",
       "teacher": 2,
       "course": 2
     }

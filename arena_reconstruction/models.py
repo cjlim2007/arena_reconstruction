@@ -15,4 +15,8 @@ class Class(models.Model):
     room = models.CharField(max_length=255)
     teacher = models.ForeignKey('arena_reconstruction.Teacher')
     course = models.ForeignKey('arena_reconstruction.Course')
+
+class Studentcourse(models.Model):
+	name = models.CharField(max_length=255)
+	code = models.CharField(max_length=255)
     
