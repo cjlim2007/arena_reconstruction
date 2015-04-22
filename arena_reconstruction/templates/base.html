@@ -37,10 +37,11 @@
 {% block content %}
 
 <table class="selection">
-  <th>{class}</th>
+  <th>{class.course.name}</th>
   <tr>
-    <td>{period}</td>
-    <td>{teacher}</td>
+    <td>{class.block}</td>
+    <td>{class.teacher.name}</td>
+    <td>{class.room}</td>
     <td><div class="btn-group" role="group" aria-label="...">
       <button type="button" class="btn btn-default">lock</button>
     </div></td>
