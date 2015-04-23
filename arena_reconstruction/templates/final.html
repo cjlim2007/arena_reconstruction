@@ -5,8 +5,7 @@
         <title>{% block title %}Course{% endblock %}</title>
     </head>
     <body>
-    {% block content%}Click to confirm your classes. <div class="btn-group" role="group" aria-label="...">
-      <button type="button" class="btn btn-default"><a href="{% url 'logout' %}">confirm</a></button>
+    {% block content%}Click to confirm your classes. <div class="btn-group" role="group" aria-label="..."><a href="{% url 'logout' %}" class="btn btn-default">confirm</a>
     </div>{% endblock %}
     </body>
 
