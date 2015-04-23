@@ -2,7 +2,7 @@
     "model": "arena_reconstruction.Studentcourse",
     "pk": 1,
     "fields": {
-      "name": "one",
+      "name": "WitchCraft",
       "code": "twopointfive"
     }
 },
@@ -10,7 +10,7 @@
     "model": "arena_reconstruction.Studentcourse",
     "pk": 2,
     "fields": {
-      "name": "two",
+      "name": "Coding 101",
       "code": "twopointfive"
     }
   },
@@ -18,7 +18,7 @@
     "model": "arena_reconstruction.Studentcourse",
     "pk": 3,
     "fields": {
-      "name": "three",
+      "name": "AP Computer Science",
       "code": "twopointfive"
     }
   },
@@ -26,7 +26,7 @@
     "model": "arena_reconstruction.Studentcourse",
     "pk": 4,
     "fields": {
-      "name": "four",
+      "name": "AP English",
       "code": "twopointfive"
     }
   },
@@ -34,7 +34,7 @@
     "model": "arena_reconstruction.Studentcourse",
     "pk": 5,
     "fields": {
-      "name": "five",
+      "name": "American Democracy",
       "code": "twopointfive"
     }
   },
@@ -42,7 +42,7 @@
     "model": "arena_reconstruction.Studentcourse",
     "pk": 6,
     "fields": {
-      "name": "six",
+      "name": "Economy",
       "code": "twopointfive"
     }
   }

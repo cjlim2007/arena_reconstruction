@@ -21,7 +21,7 @@
       
   <li role="presentation" {% if activeTab == "home" %}class="active"{% endif %}><a href="/">Home</a></li>
   {% for studentCourse in studentCourses %}
-  <li role="presentation" {% if activeTab == "course1" %}class="active"{% endif %}><a href="/course1/">{{studentCourse.name}} </a></li> 
+  <li role="presentation" {% if activeTab == studentCourse.name %}class="active"{% endif %}><a href="/course{{ forloop.counter}}/">{{studentCourse.name}} </a></li> 
   {%endfor%}
   <li role="presentation" {% if activeTab == "final" %}class="active"{% endif %}><a href="/final/">Final</a></li>
 </ul>

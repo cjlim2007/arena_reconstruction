@@ -31,7 +31,46 @@
       "code": "twopointfive"
     }
   },
-
+{
+    "model": "arena_reconstruction.Course",
+    "pk": 3,
+    "fields": {
+      "name": "AP Computer Science",
+      "code": "twopointfive"
+    }
+  },
+  {
+    "model": "arena_reconstruction.Course",
+    "pk": 4,
+    "fields": {
+      "name": "AP English",
+      "code": "twopointfive"
+    }
+  },
+  {
+    "model": "arena_reconstruction.Course",
+    "pk": 5,
+    "fields": {
+      "name": "American Democracy",
+      "code": "twopointfive"
+    }
+  },
+  {
+    "model": "arena_reconstruction.Course",
+    "pk": 6,
+    "fields": {
+      "name": "Economy",
+      "code": "twopointfive"
+    }
+  },
+  {
+    "model": "arena_reconstruction.Course",
+    "pk": 7,
+    "fields": {
+      "name": "Japanese 3",
+      "code": "twopointfive"
+    }
+  },
   {
     "model": "arena_reconstruction.Class",
     "pk": 1,
