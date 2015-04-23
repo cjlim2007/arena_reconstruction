@@ -1,0 +1,49 @@
+  [ {
+    "model": "arena_reconstruction.Studentcourse",
+    "pk": 1,
+    "fields": {
+      "name": "one",
+      "code": "twopointfive"
+    }
+},
+     {
+    "model": "arena_reconstruction.Studentcourse",
+    "pk": 2,
+    "fields": {
+      "name": "two",
+      "code": "twopointfive"
+    }
+  },
+     {
+    "model": "arena_reconstruction.Studentcourse",
+    "pk": 3,
+    "fields": {
+      "name": "three",
+      "code": "twopointfive"
+    }
+  },
+     {
+    "model": "arena_reconstruction.Studentcourse",
+    "pk": 4,
+    "fields": {
+      "name": "four",
+      "code": "twopointfive"
+    }
+  },
+     {
+    "model": "arena_reconstruction.Studentcourse",
+    "pk": 5,
+    "fields": {
+      "name": "five",
+      "code": "twopointfive"
+    }
+  },
+     {
+    "model": "arena_reconstruction.Studentcourse",
+    "pk": 6,
+    "fields": {
+      "name": "six",
+      "code": "twopointfive"
+    }
+  }
+  ]
