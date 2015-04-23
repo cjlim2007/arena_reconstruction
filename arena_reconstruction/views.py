@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-from arena_reconstruction.models import Course, Class, Teacher, Studentcourse
-=======
-from arena_reconstruction.models import Course, Class, Teacher, Schedule
->>>>>>> 00fbaba962396b8694127986fac16ae616a09612
+from arena_reconstruction.models import Course, Class, Teacher, Schedule, Studentcourse
 from django.shortcuts import render
 import logging
 import json
