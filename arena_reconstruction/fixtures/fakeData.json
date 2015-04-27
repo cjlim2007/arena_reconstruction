@@ -79,6 +79,7 @@
       "room": "242",
       "teacher": 1,
       "course": 1
+      "seats": 30
     }
   },
   {
@@ -88,7 +89,8 @@
       "block": "1",
       "room": "S101",
       "teacher": 1,
-      "course": 2
+      "course": 2,
+      "seats": 30
     }
   },
    {
@@ -98,7 +100,8 @@
       "block": "1",
       "room": "S102",
       "teacher": 2,
-      "course": 1
+      "course": 1,
+      "seats": 30
     }
   },
    {
@@ -108,7 +111,8 @@
       "block": "2",
       "room": "S101",
       "teacher": 2,
-      "course": 2
+      "course": 2,
+      "seats"": 30
     }
   }
 
