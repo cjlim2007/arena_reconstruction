@@ -6,6 +6,7 @@ class Teacher(models.Model):
 class Course(models.Model):
     name = models.CharField(max_length=255)
     code = models.CharField(max_length=255)
+    department = models.CharField(max_length=255)
 
 # class Subject(models.Model):
 #     name = models.CharField(max_length=255)
@@ -15,6 +16,7 @@ class Class(models.Model):
     room = models.CharField(max_length=255)
     teacher = models.ForeignKey('arena_reconstruction.Teacher')
     course = models.ForeignKey('arena_reconstruction.Course')
+    seats = models.CharField(max_length=255)
 
 class Studentcourse(models.Model):
 	name = models.CharField(max_length=255)

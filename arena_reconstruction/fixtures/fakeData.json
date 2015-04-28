@@ -20,7 +20,8 @@
     "pk": 1,
     "fields": {
       "name": "WitchCraft",
-      "code": "twopointfive"
+      "code": "twopointfive",
+      "department": "science"
     }
   },
    {
@@ -28,7 +29,9 @@
     "pk": 2,
     "fields": {
       "name": "Coding 101",
-      "code": "twopointfive"
+      "code": "twopointfive",
+      "department": "math"
+
     }
   },
 {
@@ -36,7 +39,8 @@
     "pk": 3,
     "fields": {
       "name": "AP Computer Science",
-      "code": "twopointfive"
+      "code": "twopointfive",
+      "department": "math"
     }
   },
   {
@@ -44,7 +48,8 @@
     "pk": 4,
     "fields": {
       "name": "AP English",
-      "code": "twopointfive"
+      "code": "twopointfive",
+      "department": "english"
     }
   },
   {
@@ -52,15 +57,17 @@
     "pk": 5,
     "fields": {
       "name": "American Democracy",
-      "code": "twopointfive"
+      "code": "twopointfive",
+      "department": "socialStudies"
     }
   },
   {
     "model": "arena_reconstruction.Course",
     "pk": 6,
     "fields": {
-      "name": "Economy",
+      "name": "Economics",
       "code": "twopointfive"
+      "department": "socialStudies"
     }
   },
   {
@@ -68,7 +75,8 @@
     "pk": 7,
     "fields": {
       "name": "Japanese 3",
-      "code": "twopointfive"
+      "code": "twopointfive",
+      "department": "language"
     }
   },
   {
@@ -78,7 +86,7 @@
       "block": "1",
       "room": "242",
       "teacher": 1,
-      "course": 1
+      "course": 1,
       "seats": 30
     }
   },
@@ -112,7 +120,7 @@
       "room": "S101",
       "teacher": 2,
       "course": 2,
-      "seats"": 30
+      "seats": 30
     }
   }
 
