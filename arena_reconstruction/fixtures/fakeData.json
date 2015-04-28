@@ -14,7 +14,41 @@
       "name": "Dragon"
     }
   },
- 
+  {
+    "model": "arena_reconstruction.Department",
+    "pk": 1,
+    "fields": {
+      "name": "science"
+    }
+  },
+ {
+    "model": "arena_reconstruction.Department",
+    "pk": 2,
+    "fields": {
+      "name": "math"
+    }
+  },
+  {
+    "model": "arena_reconstruction.Department",
+    "pk": 3,
+    "fields": {
+      "name": "english"
+    }
+  },
+  {
+    "model": "arena_reconstruction.Department",
+    "pk": 4,
+    "fields": {
+      "name": "socialStudies"
+    }
+  },
+  {
+    "model": "arena_reconstruction.Department",
+    "pk": 5,
+    "fields": {
+      "name": "language"
+    }
+  },
   {
     "model": "arena_reconstruction.Course",
     "pk": 1,
@@ -66,7 +100,7 @@
     "pk": 6,
     "fields": {
       "name": "Economics",
-      "code": "twopointfive"
+      "code": "twopointfive",
       "department": "socialStudies"
     }
   },
